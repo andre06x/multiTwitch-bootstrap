@@ -100,7 +100,7 @@ function Stream() {
               <iframe
                 title="chat twitch"
                 id="chat_embed"
-                src={`https://www.twitch.tv/embed/${chat.chat}/chat?parent=clever-hodgkin-3f5081.netlify.app`}
+                src={`https://www.twitch.tv/embed/${chat.chat}/chat`}
                 height="500"
                 width="100%"
                 style={{background: '#fff'}}
