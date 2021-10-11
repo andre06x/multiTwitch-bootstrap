@@ -24,6 +24,7 @@ const Stream = () => {
     setChat({ stream: streams, chat: stream1 })
 
     setTimeout(() => {
+      console.log(streams)
       streams.map((s, i) => (
         new window.Twitch.Embed(`twitch-embed${i}`, {
           channel: s.channel,

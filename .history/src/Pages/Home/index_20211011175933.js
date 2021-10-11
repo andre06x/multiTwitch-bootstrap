@@ -51,6 +51,8 @@ const Home = () => {
 
             </div>
           </div>
+          {/* <input type="password" class="form-control" id="exampleInputPassword1" /> */}
+
         </p>
       </div>
     </div>

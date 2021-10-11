@@ -24,6 +24,7 @@ const Stream = () => {
     setChat({ stream: streams, chat: stream1 })
 
     setTimeout(() => {
+      console.log(streams)
       streams.map((s, i) => (
         new window.Twitch.Embed(`twitch-embed${i}`, {
           channel: s.channel,
@@ -36,7 +37,9 @@ const Stream = () => {
   }, [stream1, stream2, stream3, stream4]);
 
   return (
-    <div className="container-fluid">
+    <div
+      className="container-fluid"
+    >
       <div className="row">
         <Videos chat={chat}/>
         <Chat chat={chat}/>
