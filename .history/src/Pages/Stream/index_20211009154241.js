@@ -1,0 +1,17 @@
+import React from 'react';
+import { useParams } from 'react-router-dom';
+
+const Stream = () => {
+  const {
+    stream1, stream2
+   } = useParams();
+  
+
+  return (
+    <>
+<iframe id="embed_baiano" src="https://player.twitch.tv/?muted=true&amp;channel=baiano&amp;parent=multitwitch.tv&amp;parent=www.multitwitch.tv" class="stream" allowfullscreen="true" style="height: 269px; width: 479px;"></iframe>      <h1>Stream</h1>
+    </>
+  )
+}
+
+export default Stream;
